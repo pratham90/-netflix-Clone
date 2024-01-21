@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.bg{
+    background-image: url("signimg.jpg");
+    background-position: left right;
+    height: 1100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cover{
+    background-color: rgba(0,0,0,0.6);
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    
+}
+.logo {
+    position: absolute;
+    height: 90px;
+    width: 167px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32.5px;
+
+}
+.logo svg{
+    height: 45px;
+    width: 166px;
+}
+.sign-footer{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height: 250px;
+    bottom: 0px;
+    width: 100%;
+}
+form{
+    top: 90px;
+    position: absolute;
+    height: 660px;
+    width: 455px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+    padding: 60px 68px 40px;
+}
+.form{
+    gap: 2.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form h4{
+   width: 314px;
+   height: 42.4px;
+   font-size: 32px;
+}
+.form input{
+    width: 314px;
+    height: 50px;
+    padding: 16px 20px 0px;
+    background-color: rgba(53, 53, 53, 1);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    outline: none;
+}
+
+.holder{
+    position: absolute;
+    font-size: 1rem;
+    top: 155px;
+    left: 80px;
+   margin-left: 0.5rem;
+   color: #bfbbbbb3;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.form input:focus + .holder {
+    top: 145px;
+    font-size: 0.8rem;
+    color: #bfbbbbb3;
+}
+.pss{
+    position: absolute;
+    font-size: 1rem;
+    top: 237px;
+    left: 80px;
+   margin-left: 0.5rem;
+    color: #bfbbbbb3;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.form input:focus + .pss {
+    top: 229px;
+    font-size: 0.8rem;
+    color: #bfbbbbb3;
+}
+.form button{
+    cursor: pointer;
+    background-color: red;
+    font-size: 16px;
+    width: 314px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+}
+.check{
+    
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.check a{
+    color: grey;
+    text-decoration: none;
+}
+.checkbox input{
+ 
+    height: 21.6px;
+    width: 18px;
+}
+.checkbox {
+  
+    position: relative;
+    height: 20.5px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+}
+.checkbox span{
+    color: grey;
+    top: 7px;
+    left: 22px;
+    width: 140px;
+    position: absolute;
+}
+.now p{
+    height: 21.6px;
+    width: 314px;
+    font-size: 16px;
+    color: grey;
+}
+.now p a{
+    text-decoration: none;
+}
+.now span{
+    color: grey;
+    font-size: 13px;
+    width: 275.6px;
+    height: 35.2px;
+}
+.now{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.now span a{
+    text-decoration: none;
+    color:#0071EB;
+}
+.sign-footer p{
+  color: grey;
+    margin-top: 1.7rem;
+    margin-left: 16rem;
+}
+.sign-footer p a{
+  color: grey;
+  
+}
+.sign-footer{
+    
+    height: 266px;
+}
+
+.sign-grid{
+      width: 920px;
+    margin-top: 1.2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 15.3rem;
+}
+.sign-grid-item{
+    margin: 16px 0px 0px 12px;
+}
+.sign-grid-item a{
+    font-size: 12px;
+   color: grey;
+}
+.sign-in{
+    position: relative;
+}
+.sign-in i{
+   
+  
+ color: grey;
+ font-size: 15px;
+    margin-top: 3.2rem;
+    margin-left: 16.7rem;
+position: absolute;
+}
+.sign-in select{
+    margin-top: 2.2rem;
+    margin-left: 16rem;
+    padding-left: 45px;
+    font-size: 13px;
+    background-color:black;
+    color: grey;
+    z-index: 99;
+    height: 47.7px;
+    width: 118.7px;
+}
+.sign-in select option{
+    
+    z-index: 99;
+    background-color: black;
+    color: grey;
+}

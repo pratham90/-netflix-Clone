@@ -1,0 +1,1067 @@
+@media screen and (max-width:1400px) {
+    .mainitem h1 {
+        font-size: 3.5rem;
+        width: 60rem;
+        text-align: center;
+    }
+   
+    .mainitem p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 17px 0px 0px;
+    }
+
+    .res {
+        margin-left: 2.5rem;
+    }
+
+    .foot {
+        margin-left: 2.5rem;
+    }
+
+    .enter p {
+        font-size: 1.25rem;
+        margin-left: 1.2rem;
+    }
+
+    .place {
+        top: 3545px;
+        margin-right: 10rem;
+        transition: 0.3s;
+    }
+    .input input:focus + .place{
+        top: 3540px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .navitems {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contentimg img {
+        height: 348.6px;
+        width: 464.8px;
+    }
+
+    .contentimg video {
+        position: absolute;
+        width: 400px;
+        top: 71px;
+        left: 62px;
+    }
+
+    .thirdiv video {
+        top: 39px;
+        left: 81px;
+        width: 300px;
+    }
+
+    .downld {
+        height: 95px;
+        width: 312px;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 263px;
+        right: 91px;
+        z-index: 10;
+    }
+
+    .item {
+        margin-top: -1rem;
+        text-align: left;
+        height: 231px;
+        width: 426px;
+    }
+
+    .item p {
+        font-size: 1.5rem;
+        width: 467px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+
+    .content {
+        height: 496.6px;
+        background-color: black;
+        padding: 72px 0px;
+    }
+
+    .listitem li {
+        padding: 24px;
+        margin: 0.5rem;
+        text-align: left;
+        height: 85px;
+        width: 900px;
+        background-color: rgb(38, 38, 38);
+        list-style: none;
+    }
+
+    .grid {
+        margin-top: 0.3rem;
+        width: 915px;
+        margin-left: 1.2rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .footeritem p {
+        color: #FFFFFFB3;
+        margin-top: 4.5rem;
+        margin-left: 2rem;
+    }
+
+    .end {
+        margin-left: 2rem;
+    }
+
+    .footerselect {
+        margin-left: 1.9rem;
+
+    }
+
+    .footerselect svg {
+        left: 27px;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width:959px) {
+    .mainitem h1 {
+        font-size: 2rem;
+        width: 33.5rem;
+        text-align: center;
+    }
+
+    .mainitem {
+        margin-top: 4.9rem;
+    }
+
+    .mainitem p {
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin: 17px 0px 0px;
+    }
+
+    .cover {
+        height: 512px;
+    }
+
+    .main {
+        height: 512px;
+    }
+
+    .enter p {
+        margin-left: 1.2rem;
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: 400;
+        height: 54px;
+        width: 472px;
+
+    }
+
+    .main-img img {
+        position: relative;
+        width: 88px;
+        height: 24px;
+    }
+
+    .select {
+
+        margin-top: -1.3rem;
+        margin-left: 2.5rem;
+    }
+
+    .select select {
+        height: 31px;
+        width: 110px;
+        padding: -4px 18px;
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        height: 32px;
+        width: 75.59px;
+    }
+
+    .btn1 {
+        width: 202.4px;
+    }
+
+    .input {
+
+        margin-left: 1rem;
+        height: 56px;
+        width: 472px;
+    }
+
+    .input input {
+        height: 56px;
+        width: 258px;
+    }
+
+    .placeholder {
+        top: 395px;
+        position: absolute;
+        transition: 0.3s;
+    }
+    .input input:focus + .placeholder {
+        top: 390px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+
+    .contentitem {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        height: 667px;
+    }
+
+    .contentimg img {
+        height: 402px;
+        width: 536px;
+    }
+
+    .item {
+        height: 117.6px;
+        width: 536px;
+    }
+
+    .item h1 {
+        font-size: 2rem;
+        width: 536px;
+        height: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .item p {
+        font-size: 1.15rem;
+        width: 536px;
+        height: 41.6px;
+        font-weight: 400;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .resc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .resc1 h1 {
+        height: 72px;
+    }
+
+    .resc1 p {
+        height: 20.8px;
+    }
+
+    .downld {
+        height: 82.4px;
+        width: 335.8px;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 298px;
+        right: 117px;
+        z-index: 10;
+    }
+
+    .downld .gyu {
+        margin-left: 0.6rem;
+        width: 47px;
+        height: 64px;
+    }
+
+    .faq h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center;
+        height: 36px;
+        width: 536px;
+    }
+
+    .listitem li {
+        padding: 24px;
+        margin: 0.5rem;
+        text-align: left;
+        height: 72px;
+        width: 530px;
+        background-color: rgb(38, 38, 38);
+        list-style: none;
+    }
+
+    .listitem li a {
+        font-size: 1.2rem;
+    }
+
+    .place {
+        top: 4035px;
+        transition: 0.3s;
+    }
+    .input input:focus + .place{
+        top: 4030px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+
+    .listitem li a i {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: auto auto;
+        height: 16.8px;
+        width: 262px;
+    }
+
+    .griditem {
+        height: 16.8px;
+        width: 262px;
+    }
+
+    .footer {
+        height: 1385px;
+    }
+
+    .footeritem p {
+        color: #FFFFFFB3;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .footerselect {
+        margin-top: 16.9rem;
+
+    }
+
+    .footerselect select {
+        margin-left: -0.5rem;
+
+    }
+   
+
+
+}
+
+@media screen and (max-width:599px) {
+    .input {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .cover {
+        height: 480px;
+    }
+
+    .main {
+        height: 480px;
+    }
+
+    .input input {
+        height: 48px;
+        padding: 20px 16px 4px;
+        margin-top: 0px;
+        width: 503.2px;
+
+    }
+
+    .enter {
+        height: 236px;
+        width: 503.2px;
+    }
+
+    .enter p {
+        width: 468.2px;
+        text-align: center;
+    }
+
+    .placeholder {
+      
+        top: 315px;
+   left: 40px;
+    transition: 0.3s;
+    pointer-events: none;
+    font-size: 1rem;
+ 
+    }
+    .input input:focus + .placeholder {
+        top: 300px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .btn1 {
+        font-size: 1.2rem;
+        height: 48px;
+        width: 156.6px;
+
+    }
+  
+.faq{
+    height: 877px;
+}
+.footerselect{
+    margin-top: 2rem;
+}
+.content{
+    height: 647px;
+}
+.contentimg img {
+    height: 413px;
+    width: 551px;
+}
+.contentimg video {
+    position: absolute;
+    width: 400px;
+    top: 87px;
+    left: 74px;
+}
+.contentimg video {
+    position: absolute;
+    width: 352px;
+    top: 45px;
+    left: 102px;
+}
+.faq h1 {
+   
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 36px;
+    width: 551px;
+}
+.listitem li {
+    padding: 24px;
+    margin: 0.5rem;
+    text-align: left;
+    height: 72px;
+    width: 550px;
+    background-color: rgb(38, 38, 38);
+    list-style: none;
+}
+.listitem{
+    margin-top: 1.5rem;
+}
+.place{
+    top: 3800px;
+    margin-right: 25rem;
+    transition: 0.3s;
+}
+.input input:focus + .place{
+    top: 3797px;
+    font-size: 0.8rem;
+    color: #FFFFFFB3;
+}
+.footer{
+    height: 1335px;
+}
+.footerselect{
+    margin-top: 17.5rem;
+
+}
+}
+@media screen and (max-width:580px) and (min-width:425px){
+    .select select {
+        height: 32px;
+        width: 46px;
+        padding: -4px 18px;
+        font-size: 0.8rem;
+    }
+    .select svg {
+        height: 18px;
+        position: absolute;
+        margin-left: 0.8rem;
+    }
+    .mainitem h1 {
+        font-size: 2rem;
+        width: 377px;
+        height: 108px;
+        text-align: center;
+    }
+
+    .main{
+        height: 502px;
+    }
+    .cover{
+        height: 502px;
+    }
+    .mainitem p {
+        width: 377.6px;
+        text-align: center;
+        height: 20.6px;
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin: 17px 0px 0px;
+    }
+    .mainitem{
+        margin-top: 8.5rem;
+        height: 350px;
+        width: 377px;
+    }
+    .enter p{
+        width: 329px;
+      
+        height: 54px;
+    }
+    .enter{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input input{
+        width: 329px;
+    }
+    .placeholder{
+        top: 370px;
+        margin-left:1.5rem
+    }
+    .input input:focus + .placeholder {
+        top: 365px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .content{
+        height: 537px;
+    }
+    .item {
+        text-align: center;
+        height: 138px;
+        width: 377.6px;
+    }
+    .item h1 {
+        font-size: 2rem;
+        width: 377px;
+        height: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .item p {
+        font-size: 1.15rem;
+        width: 377px;
+        height: 62.6px;
+        font-weight: 400;
+        margin-top: 16px;
+        text-align: center;
+    }
+    .contentimg img {
+        height: 283.2px;
+        width: 377.6px;
+    }
+    .contentimg video {
+        position: absolute;
+        width: 324px;
+        top: 45px;
+        left: 51px;
+    }
+    .resc1 h1{
+        height: 72px;
+    }
+    .resc1 p{
+       height: 41.6px; 
+    }
+    .downld {
+        height: 63.3px;
+        width: 259px;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 209px;
+        right: 74px;
+        z-index: 10;
+    }
+    .downld .gyu {
+        width: 56px;
+        margin-left: 0.6rem;
+        height: 44px;
+    }
+    .thirdiv video {
+        top: 35px;
+        width: 239px;
+        left: 72px;
+    }
+    .faq h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        height: 72px;
+        width: 377.6px;
+    }
+    .listitem li {
+        padding: 24px;
+        margin: 0.5rem;
+        text-align: left;
+        height: 72px;
+        width: 378px;
+        background-color: rgb(38, 38, 38);
+        list-style: none;
+        
+    }
+    .listitem li a {
+        font-size: 1.125rem;
+    }
+    .place {
+        top: 3397px;
+        width: 107px;
+        margin-left: 12rem;
+    }
+    .input input:focus + .place{
+        top: 3395px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .footer{
+        height: 1330px;
+    }
+    .footerselect select{
+        width: 115px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .griditem {
+        height: 16.8px;
+        width: 171px;
+    }
+    .grid{
+        margin-left: 0.7rem;
+    }
+    .footeritem p{
+        margin-left: 1.5rem;
+    }
+    .footerselect{
+        margin-left: 2rem;
+    }
+    .footerselect svg{
+        margin-left: 0.2rem;
+    }
+}
+@media screen and (max-width:474px) and (min-width:375px){
+    .select select {
+        height: 32px;
+        width: 46px;
+        padding: -4px 18px;
+        font-size: 0.8rem;
+    }
+    .select svg {
+        height: 15px;
+        position: absolute;
+        margin-left: 0.6rem;
+    }
+    .mainitem{
+        
+        margin-top: 8rem;
+        height: 377px;
+        width: 327px;
+    }
+    .mainitem h1 {
+        font-size: 2rem;
+        width: 327px;
+        height: 108px;
+        text-align: center;
+    }
+    .mainitem p {
+        width: 327px;
+        height: 20.8px;
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin: 17px 0px 0px;
+        text-align: center;
+    }
+    .enter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .enter p {
+        height:81px;
+        width: 279px;
+    }
+    .input input{
+        width:279px;
+    }
+    
+    .main{
+      
+        height: 529px;
+    }
+    .cover{
+        height: 529px;
+    }
+    .placeholder{
+        top: 390px;
+        margin-left: 3rem;
+    }
+    .input input:focus + .placeholder {
+        top: 385px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 499px;
+    }
+    .item{
+        height: 138px;
+        width: 327px;
+    }
+    .item h1{
+        height:36px;
+        width: 327px;
+    }
+    .item p{
+        height: 62.4px;
+        width: 327px;
+    }
+    .contentimg img{
+        height: 245.4px;
+        width:327.2px;
+    }
+    .contentimg video {
+        position: absolute;
+        width: 247px;
+        top: 45px;
+        left: 44px;
+    }
+    .resc1{
+        height: 189px;
+    }
+    .resc1 h1{
+        height: 108px;
+    }
+    .resc1 p{
+       height: 41.6px; 
+       width: 327px;
+    }
+    
+
+.downld {
+    height: 63px;
+    width: 264px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 175px;
+    right: 45px;
+    z-index: 10;
+}
+.downld img.gyu{
+    height: 48px;
+    width: 34px;
+}
+.thirdiv video {
+    top: 28px;
+    width: 208px;
+    left: 55px;
+}
+.resc2 h1{
+height: 72px;
+}
+.resc2 p{
+    height: 83.2px;
+}
+.resc2{
+    height:195px;
+}
+.faq h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 72px;
+    width: 377px;
+}
+
+.listitem li {
+    padding: 24px;
+    margin: 0.5rem;
+    text-align: left;
+    height: 72px;
+    width: 333px;
+    background-color: rgb(38, 38, 38);
+    list-style: none;
+}
+.listitem li a{
+    font-size: 1.125rem;
+}
+.place {
+    top: 3285px;
+    width: 104px;
+    margin-left: 15rem;
+}
+.input input:focus + .place{
+    top: 3280px;
+    font-size: 0.8rem;
+    color: #FFFFFFB3;
+}
+.griditem {
+    height: 16.8px;
+    width: 147px;
+}
+.grid{
+    margin-left:0.9rem
+}
+.footeritem p{
+    margin-left: 1.6rem;
+}
+.footerselect select{
+    width: 115px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.footerselect{
+    margin-left: 2.1rem;
+}
+.footerselect svg{
+    margin-left: 0.2rem;
+}
+.end{
+    margin-left:1.6rem ;
+}
+}
+@media screen and (max-width:374px){
+    .page{
+        overflow: hidden;
+    }
+    .navitems{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+height: 80px;
+padding: 24px;
+    }
+    .select{
+        margin-top: 0.1rem;
+    }
+    .select select {
+        height: 32px;
+        width: 46px;
+        padding: -4px 18px;
+        font-size: 0.8rem;
+    }
+    .select svg {
+        height: 15px;
+        position: absolute;
+        margin-left: 0.6rem;
+    }
+    .main{
+        height:565.6px;
+    }
+    .cover{
+        height:565.6px;
+    }
+    .mainitem{
+        margin-top: 7.8rem;
+        height: 418px;
+        width: 272px;
+    }
+    .mainitem h1 {
+        font-size: 2rem;
+        width: 272px;
+        height: 144px;
+        text-align: center;
+    }
+    .mainitem p {
+        text-align: center;
+        width: 272px;
+        height: 20.8px;
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin: 17px 0px 0px;
+    }
+    .enter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .enter p{
+        width:224px;
+        height:81px;
+    }
+    .input input{
+        height: 48px;
+        width: 224px;
+    }
+    .placeholder{
+        top: 427px;
+        margin-left: 1.5rem;
+    }
+    .input input:focus + .placeholder {
+        top: 422px;
+        font-size: 0.8rem;
+        color: #FFFFFFB3;
+    }
+    .content{
+        height:458.4px;
+    }
+    .contentimg img {
+        width: 272px;
+        height: 204px;
+    }
+    .contentimg video {
+        position: absolute;
+        width: 196px;
+        top: 43px;
+        left: 37px;
+    }
+    .item{
+        width: 272px;
+        height: 138.4px;
+    }
+    .item h1{
+        height: 36px;
+        width: 272px;
+    }
+    .item p{
+        height: 62.4px;
+        width: 272px;
+    }
+    .neew{
+        height: 509px;
+    }
+   
+    .resc1{
+       
+        
+        height: 170.4px;
+    }
+    .resc1 h1{
+     
+        height: 108px;
+    }
+    .resc1 p{
+       
+        
+        height: 41.4px;
+    }
+    .downld {
+        height: 63.2px;
+        width: 264px;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 137px;
+        right: 15px;
+        z-index: 10;
+    }
+    .downld .gyu {
+        margin-left: 0.6rem;
+        width: 42px;
+        height: 48px;
+    }
+    .resc2 h1{
+        height: 72px;
+    }
+    .resc2 p{
+        height: 83.2px;
+    }
+    .resc3 h1{
+height: 72px;
+    }
+    .neew1{
+    height:494px;
+    }
+.neew2{
+    height:515px;
+}
+.resc2{
+height: 190px;
+}
+.resc3{
+    height: 190px;
+}
+.thirdiv video{
+    top: 25px;
+    width: 160px;
+    left: 55px;
+}
+.faq h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 72px;
+    width: 272px;
+}
+.listitem li {
+    padding: 24px;
+    margin: 0.5rem;
+    text-align: left;
+    height: 89px;
+    width: 273px;
+    background-color: rgb(38, 38, 38);
+    list-style: none;
+}
+.faq{
+    height: 975px;
+}
+.place{
+    top: 3405px;
+    width: 110px;
+    margin-left: 19rem;
+}
+.input input:focus + .place{
+    top: 3400px;
+    font-size: 0.8rem;
+    color: #FFFFFFB3;
+}
+.footer{
+    height: 1450px;
+}
+.grid{
+    margin-left: 0.85rem;
+}
+.footeritem p{
+    margin-left: 1.6rem;
+}
+.griditem {
+    height: 19.8px;
+    width: 129px;
+}
+.footerselect{
+    margin-top: 18.5rem;
+}
+.footerselect select{
+    width: 115px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.footerselect{
+    margin-left: 2.1rem;
+}
+.footerselect svg{
+    margin-left: 0.2rem;
+}
+.end{
+    margin-left:1.6rem ;
+}
+}
